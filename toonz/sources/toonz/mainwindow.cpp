@@ -2322,6 +2322,8 @@ void MainWindow::defineActions() {
   createToolAction(T_Edit, "animate", QT_TR_NOOP("Animate Tool"), "A");
   createToolAction(T_Selection, "selection", QT_TR_NOOP("Selection Tool"), "S");
   createToolAction(T_Brush, "brush", QT_TR_NOOP("Brush Tool"), "B");
+  createToolAction(T_Test_Simple_Tool, "testsimpletools",
+                   QT_TR_NOOP("Test Tool"), "");
   createToolAction(T_Geometric, "geometric", QT_TR_NOOP("Geometric Tool"), "G");
   createToolAction(T_Type, "type", QT_TR_NOOP("Type Tool"), "Y");
   createToolAction(T_Fill, "fill", QT_TR_NOOP("Fill Tool"), "F");

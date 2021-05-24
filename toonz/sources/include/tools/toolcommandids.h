@@ -6,6 +6,7 @@
 #define T_Edit "T_Edit"
 #define T_Selection "T_Selection"
 #define T_Brush "T_Brush"
+#define T_Test_Simple_Tool "T_Test_Simple_Tool"
 #define T_Geometric "T_Geometric"
 #define T_Type "T_Type"
 #define T_Fill "T_Fill"
