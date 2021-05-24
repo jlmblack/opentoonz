@@ -36,10 +36,13 @@ struct {
   const char *toolName;
   bool collapsable;
   QAction *action;
-} buttonLayout[] = {{T_Edit, false, 0},        {T_Selection, false, 0},
-                    {"Separator_1", false, 0}, {T_Brush, false, 0},
+} buttonLayout[] = {{T_Edit, false, 0},
+                    {T_Selection, false, 0},
+                    {"Separator_1", false, 0}, 
+                    {T_Brush, false, 0},
                     {T_Test_Simple_Tool, false, 0},
-                    {T_Geometric, false, 0},   {T_Type, true, 0},
+                    {T_Geometric, false, 0}, 
+                    {T_Type, true, 0},
                     {T_Fill, false, 0},        {T_PaintBrush, false, 0},
                     {"Separator_2", false, 0}, {T_Eraser, false, 0},
                     {T_Tape, false, 0},        {T_Finger, false, 0},
